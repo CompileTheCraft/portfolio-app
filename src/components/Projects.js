@@ -14,7 +14,7 @@ function Projects() {
           <img className="project1-img" src={projectData.image} alt="gallery" />
           <p className="project1-status"><span className="purple">Status:</span> Online</p>
           <p className="project1-published"><span className="purple">Published:</span> Yes</p>
-          <a className="project1-visit" href={projectData.link} target="_blank">Visit</a>
+          <a className="project1-visit" href={projectData.link} rel="noreferrer" target="_blank">Visit</a>
         </div>
         </main>
       )
