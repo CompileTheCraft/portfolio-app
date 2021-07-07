@@ -11,23 +11,22 @@ import './App.css';
 function App() {
   const [loading, setLoading] = useState(false);
 
-  const loadingScreenTime = [
+  const loadingTime = [
     2000,
     3000,
     4000,
     5000
   ];
 
-  const randomLoadingScreenTimeSelector = Math.floor(Math.random() * loadingScreenTime.length);
-  const randomLoadingScreenTime = loadingScreenTime[randomLoadingScreenTimeSelector];
+  const ranLoad = Math.floor(Math.random() * loadingTime.length);
+  const ranFinLoad = loadingTime[ranLoad];
 
   useEffect(() => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-      console.log(randomLoadingScreenTime);
-    }, randomLoadingScreenTime)
-  }, [])
+    }, ranFinLoad)
+  }, [ranFinLoad])
 
   return (
     <main className="App">
