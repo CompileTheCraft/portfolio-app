@@ -20,6 +20,23 @@
   width: 100%;
 }
 
+/* Srollbar Styling */
+::-webkit-scrollbar {
+  background: rgb(18,23,35);
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #303847;
+  border-radius: 20px;
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(48, 56, 71, 0.7);
+  transition: all 0.5s ease-in-out;
+}
+
 ::selection {
   background: transparent;
 }
