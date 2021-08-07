@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+**BTW, I had a fun challenge of coding the whole website css in one file, and it turns out that it above 500 lines**
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -32,8 +34,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ### `npm run eject`
 
 **Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-**BTW, I had a fun challenge of coding the whole website css in one file, and it turns out that it above 500 lines**
 
 If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
